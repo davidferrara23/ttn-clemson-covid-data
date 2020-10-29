@@ -8,7 +8,9 @@ The data is actively being used by The Tiger News for analysis and reporting upd
 
 University data is sourced primarily from the Clemson University administration, including publicly released data on the university's [COVID-19 dashboard](https://www.clemson.edu/covid-19/testing/dashboard.html) as well as data obtained through Freedom of Information Act (FOIA) requests by The Tiger News.
 
-Other sources are cited when appropriate, as well as in this document. 
+[Benjy Renton](https://twitter.com/bhrenton) is the source for daily positive case data from 08/23/2020 to 09/26/2020, who pulled information from the university's dashboard when it was publicly displayed.
+
+Other sources are cited when appropriate, as well as in this document.
 
 Whenever possible, information provided by the university is given precedent and if an alternative source provides drastically different information, both are provided.
 
