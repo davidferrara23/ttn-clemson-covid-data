@@ -1,0 +1,892 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0918.1727                               -->
+<workbook original-version='18.1' source-build='2020.3.1 (20203.20.0918.1727)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Weekly Data (clemsonDashboard)' inline='true' name='federated.0bq8e5a11nwhzc10qd6yx1o4hlhf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='clemsonDashboard' name='excel-direct.0kwi8b00ufyk3j1h2kuj414z1jzv'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/davidferrara/Documents/Clemson/The Tiger/COVID-19/Data/ttn-clemson-covid-data/clemsonDashboard.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0kwi8b00ufyk3j1h2kuj414z1jzv' name='Weekly Data' table='[&apos;Weekly Data$&apos;]' type='table'>
+          <columns gridOrigin='A1:X23:no:A1:X23:0' header='yes' outcome='2'>
+            <column datatype='date' name='Week Start' ordinal='0' />
+            <column datatype='string' name='to' ordinal='1' />
+            <column datatype='date' name='End' ordinal='2' />
+            <column datatype='integer' name='Positive' ordinal='3' />
+            <column datatype='string' name='Monthly Rolling Average' ordinal='4' />
+            <column datatype='integer' name='Total Tests' ordinal='5' />
+            <column datatype='real' name='% Positive' ordinal='6' />
+            <column datatype='string' name='Monthly Rolling Average %' ordinal='7' />
+            <column datatype='integer' name='Cumulative Total Cases' ordinal='8' />
+            <column datatype='integer' name='Cumulative Total Tests' ordinal='9' />
+            <column datatype='string' name='Symptomatic (Medical Centers)' ordinal='10' />
+            <column datatype='string' name='Total Symptomatic Tests' ordinal='11' />
+            <column datatype='string' name='Asymtomatic (Surveillance)' ordinal='12' />
+            <column datatype='string' name='Total Asymptomatic Tests' ordinal='13' />
+            <column datatype='integer' name='Student Positive' ordinal='14' />
+            <column datatype='integer' name='Student Tests' ordinal='15' />
+            <column datatype='integer' name='Employee Positive' ordinal='16' />
+            <column datatype='integer' name='Employee Tests' ordinal='17' />
+            <column datatype='string' name='Positive Case Check' ordinal='18' />
+            <column datatype='string' name='Total Test Check' ordinal='19' />
+            <column datatype='string' name='S/E Positive Check' ordinal='20' />
+            <column datatype='string' name='S/E Test Check' ordinal='21' />
+            <column datatype='real' name='F23' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0kwi8b00ufyk3j1h2kuj414z1jzv' name='Weekly Data' table='[&apos;Weekly Data$&apos;]' type='table'>
+          <columns gridOrigin='A1:X23:no:A1:X23:0' header='yes' outcome='2'>
+            <column datatype='date' name='Week Start' ordinal='0' />
+            <column datatype='string' name='to' ordinal='1' />
+            <column datatype='date' name='End' ordinal='2' />
+            <column datatype='integer' name='Positive' ordinal='3' />
+            <column datatype='string' name='Monthly Rolling Average' ordinal='4' />
+            <column datatype='integer' name='Total Tests' ordinal='5' />
+            <column datatype='real' name='% Positive' ordinal='6' />
+            <column datatype='string' name='Monthly Rolling Average %' ordinal='7' />
+            <column datatype='integer' name='Cumulative Total Cases' ordinal='8' />
+            <column datatype='integer' name='Cumulative Total Tests' ordinal='9' />
+            <column datatype='string' name='Symptomatic (Medical Centers)' ordinal='10' />
+            <column datatype='string' name='Total Symptomatic Tests' ordinal='11' />
+            <column datatype='string' name='Asymtomatic (Surveillance)' ordinal='12' />
+            <column datatype='string' name='Total Asymptomatic Tests' ordinal='13' />
+            <column datatype='integer' name='Student Positive' ordinal='14' />
+            <column datatype='integer' name='Student Tests' ordinal='15' />
+            <column datatype='integer' name='Employee Positive' ordinal='16' />
+            <column datatype='integer' name='Employee Tests' ordinal='17' />
+            <column datatype='string' name='Positive Case Check' ordinal='18' />
+            <column datatype='string' name='Total Test Check' ordinal='19' />
+            <column datatype='string' name='S/E Positive Check' ordinal='20' />
+            <column datatype='string' name='S/E Test Check' ordinal='21' />
+            <column datatype='real' name='F23' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X23:no:A1:X23:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week Start</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Week Start]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Week Start</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>to</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[to]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>to</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[End]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>End</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Positive</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Positive]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Positive</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly Rolling Average</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Monthly Rolling Average]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Monthly Rolling Average</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Tests</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Tests]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Total Tests</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Positive</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Positive]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>% Positive</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly Rolling Average %</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Monthly Rolling Average %]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Monthly Rolling Average %</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cumulative Total Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cumulative Total Cases]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Cumulative Total Cases</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cumulative Total Tests</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cumulative Total Tests]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Cumulative Total Tests</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Symptomatic (Medical Centers)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Symptomatic (Medical Centers)]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Symptomatic (Medical Centers)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Symptomatic Tests</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total Symptomatic Tests]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Total Symptomatic Tests</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Asymtomatic (Surveillance)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Asymtomatic (Surveillance)]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Asymtomatic (Surveillance)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Asymptomatic Tests</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total Asymptomatic Tests]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Total Asymptomatic Tests</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Student Positive</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Student Positive]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Student Positive</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Student Tests</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Student Tests]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Student Tests</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee Positive</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Employee Positive]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Employee Positive</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee Tests</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Employee Tests]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Employee Tests</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Positive Case Check</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Positive Case Check]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Positive Case Check</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Test Check</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total Test Check]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>Total Test Check</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S/E Positive Check</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[S/E Positive Check]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>S/E Positive Check</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S/E Test Check</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[S/E Test Check]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>S/E Test Check</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[Weekly Data]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[% Positive]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Positive]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total Tests]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Weekly Data' datatype='table' name='[__tableau_internal_object_id__].[Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98]' role='measure' type='quantitative' />
+      <column caption='To' datatype='string' name='[to]' role='dimension' type='nominal' />
+      <column-instance column='[Positive]' derivation='Count' name='[cnt:Positive:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Positive]' derivation='Sum' name='[sum:% Positive:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Positive]' derivation='Sum' name='[sum:Positive:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Tests]' derivation='Sum' name='[sum:Total Tests:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[cnt:Positive:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[sum:\% Positive:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[sum:Positive:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[sum:Total Tests:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Weekly Data' id='Weekly Data_A93DB4453BDA4B038B778F1BD0C64A98'>
+            <properties context=''>
+              <relation connection='excel-direct.0kwi8b00ufyk3j1h2kuj414z1jzv' name='Weekly Data' table='[&apos;Weekly Data$&apos;]' type='table'>
+                <columns gridOrigin='A1:X23:no:A1:X23:0' header='yes' outcome='2'>
+                  <column datatype='date' name='Week Start' ordinal='0' />
+                  <column datatype='string' name='to' ordinal='1' />
+                  <column datatype='date' name='End' ordinal='2' />
+                  <column datatype='integer' name='Positive' ordinal='3' />
+                  <column datatype='string' name='Monthly Rolling Average' ordinal='4' />
+                  <column datatype='integer' name='Total Tests' ordinal='5' />
+                  <column datatype='real' name='% Positive' ordinal='6' />
+                  <column datatype='string' name='Monthly Rolling Average %' ordinal='7' />
+                  <column datatype='integer' name='Cumulative Total Cases' ordinal='8' />
+                  <column datatype='integer' name='Cumulative Total Tests' ordinal='9' />
+                  <column datatype='string' name='Symptomatic (Medical Centers)' ordinal='10' />
+                  <column datatype='string' name='Total Symptomatic Tests' ordinal='11' />
+                  <column datatype='string' name='Asymtomatic (Surveillance)' ordinal='12' />
+                  <column datatype='string' name='Total Asymptomatic Tests' ordinal='13' />
+                  <column datatype='integer' name='Student Positive' ordinal='14' />
+                  <column datatype='integer' name='Student Tests' ordinal='15' />
+                  <column datatype='integer' name='Employee Positive' ordinal='16' />
+                  <column datatype='integer' name='Employee Tests' ordinal='17' />
+                  <column datatype='string' name='Positive Case Check' ordinal='18' />
+                  <column datatype='string' name='Total Test Check' ordinal='19' />
+                  <column datatype='string' name='S/E Positive Check' ordinal='20' />
+                  <column datatype='string' name='S/E Test Check' ordinal='21' />
+                  <column datatype='real' name='F23' ordinal='22' />
+                  <column datatype='string' name='F24' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Weekly Positive and Total COVID-19 Tests at Clemson University</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Weekly Data (clemsonDashboard)' name='federated.0bq8e5a11nwhzc10qd6yx1o4hlhf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0bq8e5a11nwhzc10qd6yx1o4hlhf'>
+            <column datatype='integer' name='[Positive]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Tests]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Week Start]' role='dimension' type='ordinal' />
+            <column-instance column='[Positive]' derivation='None' name='[none:Positive:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Week Start]' derivation='None' name='[none:Week Start:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Positive]' derivation='Sum' name='[sum:Positive:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Tests]' derivation='Sum' name='[sum:Total Tests:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Week Start]' derivation='Year' name='[yr:Week Start:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[none:Positive:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[none:Positive:qk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[sum:Positive:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[sum:Positive:qk]' scope='rows' value='false' />
+            <format attr='title' class='0' field='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[none:Week Start:qk]' scope='cols' value='Week Starting' />
+            <encoding attr='space' class='0' field='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[none:Week Start:qk]' field-type='quantitative' major-origin='#2020-08-01#' major-spacing='2' major-units='weeks' minor-origin='#2020-08-01#' minor-spacing='1' minor-units='weeks' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[yr:Week Start:ok]' />
+              <color column='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[sum:Total Tests:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[yr:Week Start:ok]' />
+              <color column='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[sum:Positive:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[yr:Week Start:ok]' />
+              <color column='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.4722652435302734' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[sum:Total Tests:qk] + [federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[sum:Positive:qk])</rows>
+        <cols>[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[none:Week Start:qk]</cols>
+      </table>
+      <simple-id uuid='{D7B42B12-0AC3-4667-A2A9-E85BDFC9DFE1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[yr:Week Start:ok]&#10;[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[:Measure Names]</field>
+            <field>[federated.0bq8e5a11nwhzc10qd6yx1o4hlhf].[yr:Week Start:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D9E11CE5-D314-45E9-8979-88565733520C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
