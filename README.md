@@ -12,6 +12,12 @@ Other sources are cited when appropriate, as well as in this document.
 
 Whenever possible, information provided by the university is given precedent and if an alternative source provides drastically different information, both are provided.
 
+## License
+
+This data is licensed under CC-BY-SA-4.0, Creative Commons Attribution Share Alike 4.0 International. The full terms and conditions can be viewed in the [LICENSE](LICENSE) document. The Tiger News promotes responsible usage of the data to further the spread of information during the COVID-19 pandemic, as well as additions to it.
+
+If the data is used in any publication, it must be cited to "The Tiger News". We would also appreciate that you please let us know of any usage of the data at our News Desk email, thetigernews1@gmail.com.
+
 ## Contributors
 
 David Ferrara - Senior News Reporter, _The Tiger News_ - daferra@clemson.edu
