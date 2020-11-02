@@ -10,6 +10,8 @@ University data is sourced primarily from the Clemson University administration,
 
 [Benjy Renton](https://twitter.com/bhrenton) is the source for daily positive case data from 08/23/2020 to 09/26/2020, who pulled information from the university's dashboard when it was publicly displayed.
 
+Data for South Carolina is sourced from the [COVID Tracking Project](https://covidtracking.com/data/state/south-carolina#summary-charts).
+
 Other sources are cited when appropriate, as well as in this document.
 
 Whenever possible, information provided by the university is given precedent and if an alternative source provides drastically different information, both are provided.
