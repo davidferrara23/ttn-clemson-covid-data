@@ -10,7 +10,7 @@ University data is sourced primarily from the Clemson University administration,
 
 [Benjy Renton](https://twitter.com/bhrenton) is the source for daily positive case data from 08/23/2020 to 09/26/2020, who pulled information from the university's dashboard when it was publicly displayed.
 
-Data for South Carolina is sourced from the [COVID Tracking Project](https://covidtracking.com/data/state/south-carolina#summary-charts).
+Data for South Carolina is sourced from the [COVID Tracking Project](https://covidtracking.com/data/state/south-carolina#summary-charts). Specific county-level data such as that for Pickens County is sourced directly from [SCDHEC](https://scdhec.gov/covid19/south-carolina-county-level-data-covid-19).
 
 Other sources are cited when appropriate, as well as in this document.
 
