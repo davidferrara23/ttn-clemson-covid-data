@@ -2,7 +2,7 @@
 
 This repository is a collection of COVID-19 data for Clemson University and the surrounding Clemson, South Carolina area, gathered and organized by [The Tiger News](http://www.thetigercu.com) for transparency and publication admist the COVID-19 pandemic. The information is both historical and updated whenever possible, such as when the university's COVID-19 dashboard is updated each Tuesday and Friday end-of-day.
 
-The data is actively being used by The Tiger News for analysis and reporting updates to the Clemson community.
+The data is actively being used by The Tiger News for analysis and reporting updates to the Clemson community. In addition, the data is being published on The Tiger News's COVID-19 dashboard, viewable on our homepage.
 
 ## Sources
 
@@ -10,7 +10,9 @@ University data is sourced primarily from the Clemson University administration,
 
 [Benjy Renton](https://twitter.com/bhrenton) is the source for daily positive case data from 08/23/2020 to 09/26/2020, who pulled information from the university's dashboard when it was publicly displayed.
 
-Data for South Carolina is sourced from the [COVID Tracking Project](https://covidtracking.com/data/state/south-carolina#summary-charts). Specific county-level data such as that for Pickens County is sourced directly from [SCDHEC](https://scdhec.gov/covid19/south-carolina-county-level-data-covid-19).
+Data for South Carolina is sourced from the [COVID Tracking Project](https://covidtracking.com/data/state/south-carolina#summary-charts). Specific county-level data such as that for Pickens, Anderson, and Oconee counties is sourced directly from [SCDHEC](https://scdhec.gov/covid19/south-carolina-county-level-data-covid-19).
+
+Cumulative positive case data for universities in the [nytColleges](nytColleges.csv) document is sourced from [The New York Times survey of U.S. Colleges and Universities](https://github.com/nytimes/covid-19-data/tree/master/colleges).
 
 Other sources are cited when appropriate, as well as in this document.
 
