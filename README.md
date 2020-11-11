@@ -2,7 +2,7 @@
 
 This repository is a collection of COVID-19 data for Clemson University and the surrounding Clemson, South Carolina area, gathered and organized by [The Tiger News](http://www.thetigercu.com) for transparency and publication admist the COVID-19 pandemic. The information is both historical and updated whenever possible, such as when the university's COVID-19 dashboard is updated each Tuesday and Friday end-of-day.
 
-The data is actively being used by The Tiger News for analysis and reporting updates to the Clemson community. In addition, the data is being published on The Tiger News's COVID-19 dashboard, viewable on our homepage.
+The data is actively being used by The Tiger News for analysis and reporting updates to the Clemson community. In addition, the data is being published in-part on The Tiger News's COVID-19 dashboard, viewable on our homepage.
 
 ## Sources
 
